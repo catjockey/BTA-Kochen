@@ -107,14 +107,32 @@ ul {
       background-color: #04122b;
       color: white;
       text-align: center;
-      padding: 3rem; 1rem;
+      padding: 3rem; 
       
       
 
   }
+  #social ul,.flexyhexy {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+
+  }
+  
+
+  #social li {
+    margin: 1rem;
+  }
+ /* ich rede mit der liste li um einzelenen elemente   */
+
 input{
     padding: 1rem;
     border-radius: 4px; 
+}
+
+#legal ul{
+  text-align: center;
+  text-transform: capitalize;
 }
 
 
@@ -142,6 +160,25 @@ input{
 display: flex;
 justify-content: space-between;
 }
+
+#doc-footer{
+  padding: 3rem 1rem;
+  
+}
+
+/* um den ganzen footer unten von dem oberen kasten abzurücken muss ich mit dem footer sprechen  */
+
+
+#legal ul{
+  display: flex;
+  margin: 1rem;
+
+}
+
+#legal li{
+  margin: 1rem;
+}
+
 
   
 }
