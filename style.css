@@ -31,6 +31,23 @@ ul {
 }
 #menu.show {
   display: block;
+  position: absolute;
+  top:64px;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+}
+
+
+#menu li{
+  margin-top:3rem ;
+  margin-bottom: 3rem;
+}
+.overflow{
+  overflow: hidden;
 }
 #burger {
   border: none;
